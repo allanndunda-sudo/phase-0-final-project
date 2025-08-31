@@ -1,0 +1,67 @@
+html,body {
+    background-color: rgb(210, 211, 211);
+}
+.ribbon {
+    display: flex;
+    background-color: rgb(173, 173, 170);
+    border: 1px solid rgb(15, 15, 15);
+    box-shadow: white gray;
+    padding: 1px;
+    width: 200px;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.content {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 40%;
+    background-color: rgb(255, 196, 0);
+}
+
+.back {
+    top: 2%;
+    position: absolute;
+    left: 65%;
+}
+
+.flex {
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    top: 60%;
+    display: flex;
+    left: 12%;
+}
+.car {
+    max-width: 30%;
+    top: 40%;
+}
+.care {
+    left: 10%;
+
+}
+.carer {
+    max-width: 35%;
+}
+
+.team {
+    position: absolute;
+    display: flex;
+    border: 1px solid black;
+    top: 35%;
+    left: 15%;
+}
+.pip {
+    max-width: 30%;
+    left: 30%;
+}
